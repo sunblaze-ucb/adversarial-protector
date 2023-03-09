@@ -1,0 +1,51 @@
+{
+  "config_file": null,
+  "dataset": "CIFAR10",
+  "mode": "pipeline",
+  "model_type": "wrn-28-10",
+  "gpu_id": 0,
+  "distance": null,
+  "batch_size": 128,
+  "model_id": 0,
+  "seed": 0,
+  "randomize": 1,
+  "device": "cuda:1",
+
+  "epochs": 10,
+
+  "alpha_l_1": 2.0,
+  "alpha_l_2": 0.1,
+  "alpha_l_inf": 0.005,
+  "num_iter": 10,
+
+  "epsilon_l_1": 10.0,
+  "epsilon_l_2": 0.5,
+  "epsilon_l_inf": 0.031,
+  "smallest_adv": 0,
+  "restarts": 1,
+  "gap": 0.05,
+  "k": 10,
+
+  "lr_mode": 0,
+  "opt_type": "SGD",
+  "lr_max": 0.01,
+  "lr_min": 0.0,
+
+  "resume": 0,
+  "resume_iter": -1,
+
+
+  "criterion": "CrossEntropy",
+  "criterion_attack": "CrossEntropy",
+  "beta": 6.0,
+
+
+  "target": "classifier",
+  "pool": "softmax",
+  "generate_one": 1,
+  "momentum": 1,
+  "use_features": 1,
+  "layer_num": 1,
+  "factor": 1,
+  "staged_train": 0
+}
