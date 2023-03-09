@@ -11,18 +11,18 @@ CUDA_VISIBLE_DEVICES=0 python pc_train.py --config configs/CIFAR10_pipeline.json
 
 Additional Parameters:
 
-> *model_id*: Unique id for the model
-*opt_type*: SGD or Adam
-*fft*: 0 or 1 (To use fourier transform or not)
-*epochs*: Number of epochs to train
-*num_iter*: Number of iterations for the attack
-*model_type*: Type of model to train
-*batch_size*: Batch size
-*lr_max*: Maximum learning rate
-*lr_mode*: 1 for linear, 2 for cosine
-*droprate*: Dropout rate
-*attacked_model_list*: List of models to attack
-*attack_types*: List of attack types
+> *model_id*: Unique id for the model   
+> *opt_type*: SGD or Adam   
+*fft*: 0 or 1 (To use fourier transform or not)   
+*epochs*: Number of epochs to train   
+*num_iter*: Number of iterations for the attack   
+*model_type*: Type of model to train   
+*batch_size*: Batch size   
+*lr_max*: Maximum learning rate   
+*lr_mode*: 1 for linear, 2 for cosine   
+*droprate*: Dropout rate   
+*attacked_model_list*: List of models to attack   
+*attack_types*: List of attack types   
 
 
 ## Evaluating a Model
